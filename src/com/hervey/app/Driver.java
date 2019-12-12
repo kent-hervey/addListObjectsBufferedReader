@@ -14,10 +14,6 @@ public class Driver {
 
 		List<People> peopleList = new ArrayList<People>();
 
-		peopleList.add(new People("Fred", 1));
-
-		peopleList.add(new People("Bob", 2));
-
 		String incoming;
 
 		while (true) {
@@ -32,7 +28,7 @@ public class Driver {
 
 		System.out.println(peopleList.toString());
 		
-		
+		//peopleList.get(index)
 		
 	}
 
