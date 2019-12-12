@@ -1,6 +1,13 @@
 Coding what I found here
 https://www.facebook.com/groups/184139591763145/permalink/1432065043637254/
 
+Notes:
+---My question and my goal was whether I could add objects that had no reference name.  
+---I accomplished that, but still confused about usefulness of having objects with no reference name as in varName below
+---List<T> varName = new ArrayList<T>();
+
+
+
  I'd create a new class that hold user information such as username & password.
 Then create a List parses that class like this...
 private List<Users> userList = new ArrayList<>();
